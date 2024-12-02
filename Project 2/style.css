@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(to bottom right, #FC5E55, #FA4083);
     color: white;
 font-family: "Roboto", serif;
+font-size: 1.125rem;
     /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
@@ -46,27 +47,32 @@ main {
 }
 
 .cards {
-
-    min-height: 300px;
     justify-content: space-between;
     display: flex;
+    text-align: center;
 }
 
 .card1 {
-    background-color: rgb(178, 90, 216);
-    min-height: 300px;
+  background-image: url(images/image-background-card1.jpg);
+  background-size:cover;
+  background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-    background-color: rgb(134, 56, 127);
-    min-height: 300px;
+   background-image: url(images/image-background-card2.jpg);
+   background-size:cover;
+   background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card3 {
-    background-color: rgb(53, 21, 60);
-    min-height: 300px;
+  background-image: url(images/image-background-card3.jpg);
+  background-size:cover;
+  background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
@@ -87,17 +93,34 @@ nav a {
 }
 
 
-.herobox1 p {
+/* .herobox1 p {
 
     font-size: 20px;
     margin-bottom: 15px;
-}
+} */
 
 hr {
     color: #fff;
 }
 
 h1{
-    font-size: 65px;
+    font-size: 3.25rem;
     font-family: "Playfair", serif;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: "Playfair", serif;
+    margin-top: 10px;
+}
+
+p{
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.cards p
+{ 
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
 }
