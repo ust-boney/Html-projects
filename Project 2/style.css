@@ -1,15 +1,10 @@
 body {
-   
+
     background-image: url(images/image-lion-background.png);
     background-image: linear-gradient(to bottom right, #FC5E55, #FA4083);
     color: white;
-font-family: "Roboto", serif;
-font-size: 1.125rem;
-    /* background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-    
-
+    font-family: "Roboto", serif;
+    font-size: 1.125rem;
 }
 
 /* .roboto-light {
@@ -24,6 +19,10 @@ font-size: 1.125rem;
     font-style: normal;
   } */
 
+a{
+    color:white;
+    text-decoration: none;
+}
 .container {
     width: 1024px;
     margin-left: auto;
@@ -53,31 +52,32 @@ main {
 }
 
 .card1 {
-  background-image: url(images/image-background-card1.jpg);
-  background-size:cover;
-  background-position: bottom;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-   background-image: url(images/image-background-card2.jpg);
-   background-size:cover;
-   background-position: bottom;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 250px;
     width: 30%;
 }
 
 .card3 {
-  background-image: url(images/image-background-card3.jpg);
-  background-size:cover;
-  background-position: bottom;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 250px;
     width: 30%;
 }
 
 .herobox1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
@@ -103,24 +103,38 @@ hr {
     color: #fff;
 }
 
-h1{
+h1 {
     font-size: 3.25rem;
     font-family: "Playfair", serif;
     margin-bottom: 1rem;
 }
-h2{
+
+h2 {
     font-size: 2rem;
     font-family: "Playfair", serif;
     margin-top: 10px;
 }
 
-p{
+p {
     line-height: 1.5rem;
     margin-bottom: 0.5rem;
 }
-.cards p
-{ 
+.cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
     margin: 10px 30px 20px 30px;
+}
+.cards i{
+    font-size: 75px;
+    padding-top: 25px;
+}
+
+.book-online{
+    background-color: white;
+    color: #FC5E55;
+    padding: 10px 15px;
+    margin-top:10px;
+    display:inline-block;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px black;
 }
