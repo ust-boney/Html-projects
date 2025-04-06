@@ -37,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid lightgray;
 }
 
 main {
@@ -57,6 +58,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 .card2 {
@@ -65,6 +67,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 .card3 {
@@ -73,6 +76,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 .herobox1 {
@@ -84,14 +88,13 @@ main {
     flex: 1;
 }
 
-nav a {
+nav a.navbutton {
     border: solid 1px #fff;
     text-decoration: none;
-    padding: 4px 10px 4px 10px;
+    padding: 11px 25px;
     margin-left: 8px;
     color: white;
 }
-
 
 /* .herobox1 p {
 
@@ -102,19 +105,16 @@ nav a {
 hr {
     color: #fff;
 }
-
 h1 {
     font-size: 3.25rem;
     font-family: "Playfair", serif;
     margin-bottom: 1rem;
 }
-
 h2 {
     font-size: 2rem;
     font-family: "Playfair", serif;
     margin-top: 10px;
 }
-
 p {
     line-height: 1.5rem;
     margin-bottom: 0.5rem;
@@ -135,6 +135,29 @@ p {
     padding: 10px 15px;
     margin-top:10px;
     display:inline-block;
-    border-radius:15px;
-    box-shadow: 5px 5px 5px black;
+    border-radius:12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+.book-online:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tbox{
+    width: 37%;
+    padding: 30px;
+    border: 1px solid white;
+    /* box-sizing: border-box; */
+    margin-top: 40px;
+}
+/* .tbox :last-child{
+    font-size: .8rem;
+} */
+.tbox p:last-of-type{
+    font-size: .8rem;
+    padding-left: 30px;
 }
