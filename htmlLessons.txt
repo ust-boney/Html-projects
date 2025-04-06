@@ -1,0 +1,3 @@
+<a> tag by default is inline
+when used as part of p or div tag it exhibits their structure behavior
+ display: block it may show as standalone block
